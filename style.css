@@ -1,0 +1,45 @@
+.card {
+    margin:20px;
+}
+
+.card img {
+    max-height: 250px;
+    object-fit: cover;
+}
+
+.form-group {
+    margin:10px 0px;
+}
+
+.card .btn-danger {
+    position: absolute;
+    top:10px;
+    right: 10px;
+}
+
+.action-btns {
+    opacity: 0;
+    transition: 0.3s;
+}
+
+.card:hover > .action-btns {
+    opacity: 1;
+}
+
+.card .btn-warning {
+    position: absolute;
+    top:10px;
+    right: 50px;
+}
+
+.card .btn-warning i {
+    color: white;
+}
+
+.modal-body img {
+    width:160px;
+    height: 160px;
+    object-fit: contain;
+    display: block;
+    margin: auto;
+}
